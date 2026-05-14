@@ -1,0 +1,170 @@
+h1 {
+    /* Estilo para h1 */
+    color: blue;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    flex-grow: 1;
+    background: #ff0000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.centro {
+    flex-grow: 2;
+    background: #00ff00;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.direita {
+    flex-grow: 1;
+    background: #0000ff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+}
+
+
+/* --------------------------------------------------------------------------------
+                    Portal Digital - Daniel Dias Gomes 
+-------------------------------------------------------------------------------- */
+
+.principal {
+    /* Estilo para a classe principal */
+    width: 100%;
+    /* largura*/
+    display: flex;
+    /* indicando que é um container flexível */
+    flex-direction: row;
+    /* Organização em linha */
+    gap: 15px;
+    /* espaço entre as colunas */
+    align-items: stretch;
+    /* deixa todas com a mesma altura */
+}
+
+/* TODAS as colunas com o mesmo tamanho */
+.coluna1,
+.coluna2,
+.coluna3 {
+    flex: 1;
+    /* divide igualmente a largura */
+    padding: 10px;
+    /*Espaçamento interno */
+    box-sizing: border-box;
+    /*Inclui padding e border no cálculo da largura */
+    align-items: center;
+    /*alinha ao centro*/
+    margin: 1.5%;
+    /*espaçamento externo*/
+    flex-grow: 1;
+    /* permite que as colunas cresçam igualmente para preencher o espaço disponível */
+}
+
+
+/* dando uma cor de fundo com transparência para as colunas só pra destacar um pouco*/
+.coluna1 {
+    background-color: #765da515;
+}
+
+.coluna2 {
+    background-color: #765da510;
+}
+
+.coluna3 {
+    background-color: #765da510;
+}
+
+
+/* imagens padronizadas */
+img {
+    margin: 1.5%;
+    /*espaçamento externo*/
+    width: 100%;
+    /*largura*/
+    height: auto;
+    /*altura automática*/
+    object-fit: cover;
+    /* → corta partes da imagem sem deformar. */
+    display: block;
+    /* → centraliza a imagem. */
+}
+
+/* melhora visual opcional */
+figure,
+figcaption {
+    margin: 10px 0; /* espaçamento entre as imagens e legendas */
+    color: #91a1caaf; /* cor das legendas */
+    text-align: center; /* centraliza as legendas */
+}
+
+
+/* Estilo para os parágrafos, dando uma cor de fundo com transparência só pra destacar um pouco */
+p {
+    font-size: 1.5em; /* aumenta o tamanho da fonte */
+    text-align: center; /* centraliza o texto */
+    color: white; /* cor do texto */
+    background-color: #6f68b12a; /* cor de fundo com transparência */
+
+}
+
+
+/* Estilo para a classe título*/
+.titulo {
+    background-color: #a598dd2a; /* cor de fundo com transparência */
+    color: rgb(255, 255, 255); /* cor do texto */
+    font-style: bold; /* negrito */
+    font-size: 80px; /* tamanho da fonte */
+}
+
+/* Estilo para h2*/
+h2 {
+    text-align: center; /* centraliza o texto */
+    color: #000000; /* cor do texto */
+    background: #f3e0a2; /* cor de fundo */
+    font-size: 30px; /* tamanho da fonte */
+    width: 100%; /* largura total */
+
+}
+
+/* Estilo para a classe p1 */
+.p1 {
+    /* formatação de id para os parágrafos da primeira linha */
+    background-color: #ddba8c; /* cor de fundo */
+    color: rgb(39, 1, 1); /* cor do texto */
+    font-size: 1.5em; /* tamanho da fonte */
+    text-align: center; /* centraliza o texto */
+
+}
+
+/* Estilo para a classe fontes */
+.fontes {
+    background-color: #a02e50; /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    font-size: 1.5em;/* tamanho da fonte */
+}
+
+/* Estilo para a classe fundo */
+.fundo {
+    background-color: #110d35;/* cor de fundo */
+}
+
+/* Estilo para h3, usado para cabeçalho e rodapé */
+h3 {
+    color: #d4547b; /* cor do texto */
+    background: #d4547b; /* cor de fundo */
+    width: 340%; /* largura, aproximadamente a quantidade para ir do início ao fim */
+
+}

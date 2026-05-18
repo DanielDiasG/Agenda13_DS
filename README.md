@@ -2,7 +2,7 @@
 
 Esse HTML cria uma página chamada “Meu Portal de Entretenimento Digital”, organizada em três colunas com conteúdos sobre filmes, músicas e games.
 
-#Estrutura principal da página:
+# Estrutura principal da página:
 O conteúdo fica dentro de uma div class="principal", dividida em 3 colunas:
 
 1. Filmes e Séries
@@ -30,7 +30,7 @@ Minecraft
 AR Code
 Com descrições sobre jogos e tecnologia
 
-#Recursos usados no HTML:
+# Recursos usados no HTML:
 figure → agrupa imagem + legenda.
 img → exibe imagens.
 figcaption → legenda das imagens.
@@ -39,7 +39,7 @@ id → aplica estilo específico.
 CSS inline → usado diretamente em alguns parágrafos.
 br → cria espaçamento entre os elementos.
 
-#Objetivo da página:
+# Objetivo da página:
 Criar um portal visual de entretenimento com temas variados usando:
 HTML estrutural,
 CSS externo,

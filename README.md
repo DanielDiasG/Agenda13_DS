@@ -31,12 +31,19 @@ AR Code
 Com descrições sobre jogos e tecnologia
 
 # Recursos usados no HTML:
+
 figure → agrupa imagem + legenda.
+
 img → exibe imagens.
+
 figcaption → legenda das imagens.
+
 class → aplica estilos reutilizáveis.
+
 id → aplica estilo específico.
+
 CSS inline → usado diretamente em alguns parágrafos.
+
 br → cria espaçamento entre os elementos.
 
 # Objetivo da página:
